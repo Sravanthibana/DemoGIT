@@ -47,17 +47,22 @@ public class HomePage {
 	
 	public WebElement getID()
 	{
+		System.out.println("ProjectA changes");
 		return id;
+		
 	}
 	
 	public WebElement getPwd()
 	{
+		System.out.println("ProjectA changes");
 		return pwd;
 	}
 	
 	public WebElement getGo()
 	{
+		System.out.println("ProjectA changes");	
 		return go;
+		
 	}
 
 }
